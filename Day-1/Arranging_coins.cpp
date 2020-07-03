@@ -14,10 +14,7 @@ public:
       2
       3
       4
-      .
-      .
-      .
-      .
+      .....
       
       sum of this pattern is 1+2+3+4........+k
       where k is no of rows so 

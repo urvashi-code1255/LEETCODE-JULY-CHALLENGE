@@ -2,8 +2,8 @@
 
 class Solution {
 public:
-    vector<vector<int>> levelOrderBottom(TreeNode* root) {
-        
+    vector<vector<int>> levelOrderBottom(TreeNode* root) 
+    { 
         if(!root)       // corner case
             return {};
         
