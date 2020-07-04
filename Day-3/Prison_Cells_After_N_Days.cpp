@@ -4,7 +4,8 @@ public:
         vector<int>temp(8);
         
         // as the cycle is repeating after 14 days , so if no of days is multiple of 14 then we have to consider  
-	    //only upto first 14 days because after that ,values will repeat .
+	//only upto first 14 days because after that ,values will repeat .
+	    
         N=(N%14 == 0)?14:N%14;  
         
         while(N--)
