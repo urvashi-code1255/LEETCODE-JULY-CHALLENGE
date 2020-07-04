@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     int nthUglyNumber(int n)
     {
         vector<int>v(n);
