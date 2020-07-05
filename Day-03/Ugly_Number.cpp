@@ -1,10 +1,11 @@
 class Solution {
 public:
-    bool isUgly(int num) {
+    bool isUgly(int num) 
+    {
         int temp = 0 ;
         while(num != temp)
         {
-            temp = num;
+            temp = num ;
             if(num%2 == 0)
                 num /= 2;
             if(num%3 == 0)
