@@ -9,11 +9,11 @@ class Solution {
             {
                 if (grid[i][j] == 1) 
                 {
-                    perimeter += 4;
+                    perimeter += 4 ;
                     if (i < m - 1) 
-                        perimeter -= 2 * grid[i + 1][j];
+                        perimeter -= 2 * grid[i + 1][j] ;
                     if (j < n - 1) 
-                        perimeter -= 2 * grid[i][j + 1];
+                        perimeter -= 2 * grid[i][j + 1] ;
                 }
             }
         }
