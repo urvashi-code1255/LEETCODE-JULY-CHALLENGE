@@ -15,7 +15,6 @@ public:
             
             while(front < back)
             {
-                
                 int sum = nums[front] + nums[back] ;
                 
                 if(sum < target)
