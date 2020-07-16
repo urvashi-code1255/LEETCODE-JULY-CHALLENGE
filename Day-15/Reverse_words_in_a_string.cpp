@@ -1,6 +1,7 @@
 class Solution {
 public:
-    string reverseWords(string s) {
+    string reverseWords(string s) 
+    {
         vector<string>v;
         string a = "";
         for(int i = 0 ; i < s.size() ; i++)
