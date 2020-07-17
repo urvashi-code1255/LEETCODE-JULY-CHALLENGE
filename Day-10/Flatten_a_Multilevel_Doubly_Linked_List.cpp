@@ -1,6 +1,7 @@
 class Solution {
 public:
-    Node* flatten(Node* head) {
+    Node* flatten(Node* head) 
+    {
         if(!head)   
             return head;
 
