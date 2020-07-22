@@ -5,7 +5,9 @@ public:
         {
             head = head->next;
         }
+        
         ListNode* current_node = head;
+        
         while(current_node && current_node->next)
         {
             if(current_node->next->val==val)

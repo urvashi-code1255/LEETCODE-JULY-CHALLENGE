@@ -7,7 +7,7 @@ public:
         {
             int sum = ((i >= 0) ? (a[i] - '0') : 0) + ((j >= 0) ? (b[j] - '0') : 0) + carry ;
             carry = sum/2 ;
-            str = char((sum%2) + '0') + str;
+            str = char((sum % 2) + '0') + str;
             i--; j--;
         }
         return str;
