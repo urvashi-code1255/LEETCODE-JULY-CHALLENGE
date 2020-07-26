@@ -3,7 +3,7 @@ public:
     vector<int> singleNumber(vector<int>& a ) {
         
     int *x= new int[sizeof(int)];
-	int *y= new int[sizeof(int)];
+    int *y= new int[sizeof(int)];
         
     int XOR=a[0];//hold xor of all elements of array..
 	int set_bit_no;//will have only one set bit of XOR..
